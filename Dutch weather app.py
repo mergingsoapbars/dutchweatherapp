@@ -41,7 +41,6 @@ y = (scrn_hght / 2) - (app_hght / 2)
 root.title("Het weer in Nederland")
 root.geometry(f"{app_wdth}x{app_hght}+{int(x)}+{int(y)}")
 root.configure(bg='#cfcfcf')
-root.iconbitmap("icon.ico")
 
 
 # In[5]:
